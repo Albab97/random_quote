@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+    background-color: burlywood;
+}
+.btn{
+    font-size: 8px;
+    padding: 3px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: aliceblue;
+    border: solid 1px black;
+}
+.btn:hover{
+    background-color: cadetblue;
+}
+.container{
+    font-size: 11px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem ;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.main-content{
+    border: solid 1px black;
+    width: 15rem;
+    margin-top: 1rem;
+    padding: 5px;
+    margin-left: 11.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.author{
+    color: blue;
+    font-size: 10px;
+}
